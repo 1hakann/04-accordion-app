@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+React project 4: Accordion. This project deploy here Review App: https://1hakann.github.io/04-accordion-app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+To clone the project git clone https://github.com/1hakann/04-accordion-app.git In the project directory, you can run: npm run start Node must be installed to run the project.
 
-## Available Scripts
+This app aims to show the user by pulling the values in our json object. For this, before and after buttons have been added. Also the surprise me button fetches random content.
 
-In the project directory, you can run:
+This project aims to create an accordion using our data in our json object. For this, we added icons and used them as buttons.
 
-### `npm start`
+Creating the application and css steps are similar to previous projects. Review component has been created. Here we used icons as a new feature. We have installed our package. And we imported the icons we want to use.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+First, we structured our project. Then we imported our css, data object and component with react I useState. We created the app return simply. We pulled our data and transferred it to our variable. We split our object with map. and in the return inside, we returned our component, unlike the previous ones. We got our id by giving a key to our component and returned the rest of the array with ...{}.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Then we came to our component and imported our useState and icons. We created our return and called our objects in the relevant places. Then we added the button. We gave our button our icons with ternary instead of name.
 
-### `npm test`
+We designed with CSS. We used grid and flex structures for this. Finally, we defined onclick in our button. We added a simple function inside. Ta Taa. Our app is ready to be used.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Deployment Now it's time to deploy.
 
-### `npm run build`
+For this, let's add a homepage to package.json. Let's add git remote set-url as origin. Then let's add the predeploy and deploy commands to the scripts. Now let's do npm install gh-pages --save-dev. Now let's perform the build and then deploy operations. That is all.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+See you in the next app. Goodbye! Stay with the code...
